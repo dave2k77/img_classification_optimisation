@@ -90,7 +90,7 @@ The graphs below show that configuration 5 had the highest validation accuracy a
 
 
 
-A summary of its predictive performance is shown below:
+A summary of its predictive performance is shown in the table and bar chart below:
 
 |Class |Label      | % Correct |
 |:-----|:----------|:----------|
@@ -106,5 +106,12 @@ A summary of its predictive performance is shown below:
 |9     |Truck      |85.00      |
 
 
+![image](https://github.com/dave2k77/img_classification_optimisation/assets/30156495/27cef99a-3a64-4563-a74b-81111e3bb7cb)
 
+
+The model had the most significant number of inaccuracies when predicting labels 2 (bird), 3 (cat), and 5 (dog). To explore this further, we can look at the confusion matrix below:
+
+![image](https://github.com/dave2k77/img_classification_optimisation/assets/30156495/715f6ee8-d1ed-475e-a30a-4292787dc430)
+
+We see that labels 2 (Bird), 3 (Cat) and 5 (Dog) had the lowest number of correct predictions, 602, 602 and 584, respectively. We observe that class 5 (dog) images were labelled as class 3 (Cat) 288 times, and class 3 (Cat) images were labelled as class 5 (dogs) 127 times.
 
